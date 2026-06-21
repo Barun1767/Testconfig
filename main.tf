@@ -26,7 +26,7 @@ resource "google_compute_firewall" "allow_ssh" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22"]
+    ports    = ["21"]
   }
 
   # Replace with your specific public IP block for internal security boundary
