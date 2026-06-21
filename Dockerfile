@@ -14,3 +14,5 @@ RUN  chmod +x app.sh
 USER nobody 
 
 CMD ["./app.sh"]
+
+# make a note for this command and logics 
